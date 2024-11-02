@@ -33,18 +33,17 @@
     Должна произойти регистрация пользователя
 
 - summary: |
-    Проверка регистрации пользователя через email 
+    Проверка входа в систему через профиль GitHub 
   requirement: |
-    Можно зарегистрироваться в системе по электронной почте
+    Можно зайти в систему, используя учетную запись GitHub
   prerequisites:
-    Открыта страница регистрации, https://codebattle.hexlet.io/users/new?locale=en&next=%2F
+    Открыта страница входа, https://codebattle.hexlet.io/session/new?locale=en&next=%2F
   test-data: |
-    Nickname = Zaur Email = zaur.finansiero@gmail.com Пароль = 123123
+     Email = zaur.finansist@gmail.com Пароль = 123123
   steps:
-    - Вводим никнейм
+    - Нажимаем "Sign in with GitHub"
     - Вводим электронную почту
     - Вводим пароль
-    - Подтверждаем пароль
     - Нажимаем "Submit"
   expected-result: |
-    Должна произойти регистрация пользователя 
+    Должен произойти вход в личный кабинет пользователя 
