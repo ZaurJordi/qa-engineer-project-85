@@ -166,6 +166,7 @@
   test-data: |
      empty
   steps:
-    - Выбираем 
+    - Выбираем любую завершенную игру
+    - 
   expected-result: |
     При нажатии кнопки "Show" в "Live tournaments" или "Completed tournaments" должен открываться соответственно текущий или завершенный турнир
