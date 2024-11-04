@@ -138,3 +138,21 @@
     - Проверяем результат
   expected-result: |
     Переход по закладкам происходит корректно, отображаемая информация соответствует закладкам
+
+- summary: |
+    Проверка закладки "Tournaments"
+  requirement: |
+    В закладке "Tournaments" можно просмотреть текущие и завершенные турниры
+  prerequisites:
+    Открыта страница, https://codebattle.hexlet.io/#tournaments
+  test-data: |
+     empty
+  steps:
+    - В разделе "Live tournaments" выбираем любой текущий турнир
+    - Нажимаем "Show"
+    - Проверяем результат
+    - В разделе "Completed tournaments" выбираем любой завершенный турнир
+    - Нажимаем "Show"
+    - Проверяем результат
+  expected-result: |
+    При нажатии кнопки "Show" в "Live tournaments" или "Completed tournaments" должен открываться соответственно текущий или завершенный турнир
