@@ -156,3 +156,16 @@
     - Проверяем результат
   expected-result: |
     При нажатии кнопки "Show" в "Live tournaments" или "Completed tournaments" должен открываться соответственно текущий или завершенный турнир
+
+- summary: |
+    Проверка закладки "History"
+  requirement: |
+    В закладке "History" можно просмотреть завершенные игры
+  prerequisites:
+    Открыта страница, https://codebattle.hexlet.io/#completedGames
+  test-data: |
+     empty
+  steps:
+    - Выбираем 
+  expected-result: |
+    При нажатии кнопки "Show" в "Live tournaments" или "Completed tournaments" должен открываться соответственно текущий или завершенный турнир
