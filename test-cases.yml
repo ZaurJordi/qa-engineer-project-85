@@ -39,7 +39,7 @@
   prerequisites:
     Открыта страница входа, https://codebattle.hexlet.io/session/new?locale=en&next=%2F
   test-data: |
-     Email = zaur.finansist@gmail.com Пароль = 123123
+    Email = zaur.finansist@gmail.com Пароль = 123123
   steps:
     - Нажимаем "Sign in with GitHub"
     - Вводим электронную почту
@@ -55,7 +55,7 @@
   prerequisites:
     Открыта главная страница, https://codebattle.hexlet.io/#lobby
   test-data: |
-     empty
+    empty
   steps:
     - Пролистываем главную страницу в самый низ
     - Вводим любое сообщение в окошко чата, например, "Привет всем"
@@ -70,10 +70,12 @@
   prerequisites:
     Открыта главная страница, https://codebattle.hexlet.io/#lobby
   test-data: |
-     empty
+    empty
   steps:
     - На главной странице находим раздел "Online players"
     - Выбираем любого пользователя
+    - Нажимаем на имя пользователя
+    - В выпадающем меню выбираем "Direct message"
     - Вводим текст сообщения в окошко чата
     - Нажимаем "Send"
   expected-result: |
@@ -86,7 +88,7 @@
   prerequisites:
     Открыта любая страница приложения
   test-data: |
-     empty
+    empty
   steps:
     - На любой странице нажать правой кнопкой мыши на имя пользователя
   expected-result: |
@@ -99,7 +101,7 @@
   prerequisites:
     Открыта главная страница, https://codebattle.hexlet.io/#lobby
   test-data: |
-     empty
+    empty
   steps:
     - Переходим в раздел LEADERBOARD 
     - Нажимаем "TOP LIST"
@@ -114,7 +116,7 @@
   prerequisites:
     Открыта главная страница, https://codebattle.hexlet.io/#lobby
   test-data: |
-     empty
+    empty
   steps:
     - Выбираем любую игру, которая создана другим пользователем и находится в режиме ожидания соверника 
     - Нажимаем "Fight"
@@ -128,7 +130,7 @@
   prerequisites:
     Открыта главная страница, https://codebattle.hexlet.io/#lobby
   test-data: |
-     empty
+    empty
   steps:
     - Нажимаем закладку "Lobby"
     - Проверяем результат
@@ -146,7 +148,7 @@
   prerequisites:
     Открыта страница, https://codebattle.hexlet.io/#tournaments
   test-data: |
-     empty
+    empty
   steps:
     - В разделе "Live tournaments" выбираем любой текущий турнир
     - Нажимаем "Show"
@@ -164,9 +166,37 @@
   prerequisites:
     Открыта страница, https://codebattle.hexlet.io/#completedGames
   test-data: |
-     empty
+    empty
   steps:
     - Выбираем любую завершенную игру
     - Нажимаем "Show"
   expected-result: |
     Должна отобразиться страница проведенной игры с возможностью просмотра действий пользователей
+
+- summary: |
+    Проверка возможности просмотреть свой профиль
+  requirement: |
+    Можно посмотреть информацию по себе
+  prerequisites:
+    Открыта главная страница, https://codebattle.hexlet.io/#lobby
+  test-data: |
+    empty
+  steps:
+    - В правом верхнем углу нажимаем на свое имя пользователя
+    - В выпадающем меню выбираем "My profile"
+  expected-result: |
+    Открывается страница с информацией о себе: дата регистрации, статистика (ранг, очки, список проведенных игр), языки, ачивки
+
+- summary: |
+    Проверка просмотра своих игр
+  requirement: |
+    В своем профиле в закладке "Completed games" можно просмотреть свои завершенные игры
+  prerequisites:
+    Открыта страница личного профиля, https://codebattle.hexlet.io/users/16305
+  test-data: |
+    empty
+  steps:
+    - Выбираем любую завершенную игру
+    - Нажимаем "Show"
+  expected-result: |
+    Должна отобразиться страница проведенной игры с возможностью просмотра хода решения 
