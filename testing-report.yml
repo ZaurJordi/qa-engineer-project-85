@@ -24,11 +24,11 @@
   status: pass
 
 - summary: |
-    Проверка входа в систему через профиль GitHub
+    Проверка входа в игру, созданную другим пользователем
   status: pass
 
 - summary: |
-    Проверка входа в систему через профиль GitHub
+    Проверка закладок "Lobby", "Tournaments", "History"
   status: pass
 
 - summary: |
