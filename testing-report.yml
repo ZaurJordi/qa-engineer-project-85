@@ -20,6 +20,26 @@
   status: pass
 
 - summary: |
+    Проверка просмотра рейтинга пользователей
+  status: pass
+
+- summary: |
+    Проверка входа в систему через профиль GitHub
+  status: pass
+
+- summary: |
+    Проверка входа в систему через профиль GitHub
+  status: pass
+
+- summary: |
+    Проверка входа в систему через профиль GitHub
+  status: pass
+
+- summary: |
+    Проверка входа в систему через профиль GitHub
+  status: pass
+
+- summary: |
     Проверка входа в систему через профиль GitHub
   status: pass
 
