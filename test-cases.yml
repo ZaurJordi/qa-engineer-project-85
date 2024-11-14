@@ -37,7 +37,7 @@
   requirement: |
     Можно отправить сообщение в общий чат
   prerequisites:
-    Открыта главная страница, https://codebattle.hexlet.io/#lobby
+    Пользователь залогинился, открыта главная страница, https://codebattle.hexlet.io/#lobby
   test-data: |
     empty
   steps:
@@ -52,7 +52,7 @@
   requirement: |
     Можно отправить сообщение любому пользователю, который находится онлайн
   prerequisites:
-    Открыта главная страница, https://codebattle.hexlet.io/#lobby
+    Пользователь залогинился, открыта главная страница, https://codebattle.hexlet.io/#lobby
   test-data: |
     empty
   steps:
@@ -70,7 +70,7 @@
   requirement: |
     Можно посмотреть информацию о пользователе
   prerequisites:
-    Открыта любая страница приложения
+    Пользователь залогинился, открыта любая страница приложения
   test-data: |
     empty
   steps:
@@ -83,7 +83,7 @@
   requirement: |
     Можно посмотреть рейтинг по пользователям за неделю, за месяц, за весь период
   prerequisites:
-    Открыта главная страница, https://codebattle.hexlet.io/#lobby
+    Пользователь залогинился, открыта главная страница, https://codebattle.hexlet.io/#lobby
   test-data: |
     empty
   steps:
@@ -98,7 +98,7 @@
   requirement: |
     Можно войти и начать игру, которая создана другим пользователем
   prerequisites:
-    Открыта главная страница, https://codebattle.hexlet.io/#lobby
+    Пользователь залогинился, открыта главная страница, https://codebattle.hexlet.io/#lobby
   test-data: |
     empty
   steps:
@@ -112,7 +112,7 @@
   requirement: |
     Закладки на главной странице отображают верную информацию
   prerequisites:
-    Открыта главная страница, https://codebattle.hexlet.io/#lobby
+    Пользователь залогинился, открыта главная страница, https://codebattle.hexlet.io/#lobby
   test-data: |
     empty
   steps:
@@ -130,7 +130,7 @@
   requirement: |
     В закладке "Tournaments" можно просмотреть текущие и завершенные турниры
   prerequisites:
-    Открыта страница, https://codebattle.hexlet.io/#tournaments
+    Пользователь залогинился, открыта страница, https://codebattle.hexlet.io/#tournaments
   test-data: |
     empty
   steps:
@@ -148,7 +148,7 @@
   requirement: |
     В закладке "History" можно просмотреть завершенные игры
   prerequisites:
-    Открыта страница, https://codebattle.hexlet.io/#completedGames
+    Пользователь залогинился, открыта страница, https://codebattle.hexlet.io/#completedGames
   test-data: |
     empty
   steps:
@@ -162,7 +162,7 @@
   requirement: |
     Можно посмотреть информацию по себе
   prerequisites:
-    Открыта главная страница, https://codebattle.hexlet.io/#lobby
+    Пользователь залогинился, открыта главная страница, https://codebattle.hexlet.io/#lobby
   test-data: |
     empty
   steps:
@@ -176,7 +176,7 @@
   requirement: |
     В своем профиле в закладке "Completed games" можно просмотреть свои завершенные игры
   prerequisites:
-    Открыта страница личного профиля, https://codebattle.hexlet.io/users/16305
+    Пользователь залогинился, открыта страница личного профиля, https://codebattle.hexlet.io/users/16305
   test-data: |
     empty
   steps:
@@ -190,7 +190,7 @@
   requirement: |
     Можно изменить настройки профиля 
   prerequisites:
-    Открыта главная страница, https://codebattle.hexlet.io/#lobby
+    Пользователь залогинился, открыта главная страница, https://codebattle.hexlet.io/#lobby
   test-data: |
     empty
   steps:
@@ -204,7 +204,7 @@
   requirement: |
     Можно создать новую игру 
   prerequisites:
-    Открыта главная страница, https://codebattle.hexlet.io/#lobby
+    Пользователь залогинился, открыта главная страница, https://codebattle.hexlet.io/#lobby
   test-data: |
     empty
   steps:
@@ -218,11 +218,11 @@
     Игра запускается, можно ознакомиться с заданием и приступать к выполнению
 
 - summary: |
-    Проверка смены языка в игре
+    Проверка смены языка в игре на английский
   requirement: |
     В запущенной игре можно поменить язык с русского на английский
   prerequisites:
-    Открыта страница игры, https://codebattle.hexlet.io/games/225113, выбран русский язык
+    Пользователь залогинился, открыта страница игры, https://codebattle.hexlet.io/games/225113, выбран русский язык
   test-data: |
     empty
   steps:
@@ -232,11 +232,11 @@
     Язык меняется на английкий (задача, входные и выходные данные, примеры)
 
 - summary: |
-    Проверка смены языка в игре
+    Проверка смены языка в игре на русский
   requirement: |
     В запущенной игре можно поменить язык с английского на русский
   prerequisites:
-    Открыта страница игры, https://codebattle.hexlet.io/games/225113, выбран английский язык
+    Пользователь залогинился, открыта страница игры, https://codebattle.hexlet.io/games/225113, выбран английский язык
   test-data: |
     empty
   steps:
@@ -250,7 +250,7 @@
   requirement: |
     Можно создать новый турнир
   prerequisites:
-    Открыта страница, https://codebattle.hexlet.io/#tournaments
+    Пользователь залогинился, открыта страница, https://codebattle.hexlet.io/#tournaments
   test-data: |
     empty
   steps:
@@ -272,7 +272,7 @@
   requirement: |
     В игре можно выбрать один из пятнадцати языков программирования
   prerequisites:
-    Открыта страница игры, https://codebattle.hexlet.io/games/225211
+    Пользователь залогинился, открыта страница игры, https://codebattle.hexlet.io/games/225211
   test-data: |
     empty
   steps:
