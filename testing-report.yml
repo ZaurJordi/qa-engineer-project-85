@@ -48,10 +48,6 @@
   status: fail
 
 - summary: |
-    Проверка возможности изменения настроек
-  status: pass
-
-- summary: |
     Проверка создания новой игры
   status: pass
 
