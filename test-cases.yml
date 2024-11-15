@@ -21,7 +21,7 @@
   requirement: |
     Можно зайти в систему, используя учетную запись GitHub
   prerequisites:
-    Открыта начальная страница, https://codebattle.hexlet.ioF
+    Открыта начальная страница, https://codebattle.hexlet.io
   test-data: |
     Email = zaur.finansist@gmail.com Пароль = 123123
   steps:
