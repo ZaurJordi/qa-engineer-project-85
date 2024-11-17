@@ -48,10 +48,6 @@
   status: fail
 
 - summary: |
-    Проверка создания новой игры
-  status: pass
-
-- summary: |
     Проверка смены языка в игре c русского на английский
   status: pass
 
