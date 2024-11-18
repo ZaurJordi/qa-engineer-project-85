@@ -81,32 +81,32 @@
 
 - summary: |
     Проверка создания игры против другого пользователя
-  status: 
+  status: pass
 
 - summary: |
     Проверка создания игры с ботом
-  status: 
+  status: pass
 
 - summary: |
     Проверка повторного входа в запущенную игру
-  status: 
+  status: pass
 
 - summary: |
     Проверка своего решения в игре
-  status: 
+  status: pass
 
 - summary: |
     Проверка сброса решения
-  status: 
+  status: pass
 
 - summary: |
     Проверка возможности признать поражение 
-  status: 
+  status: pass
 
 - summary: |
     Проверка окончания игры по исходу времени
-  status: 
+  status: pass
    
 - summary: |
     Проверка окончания игры при поражении
-  status: 
+  status: pass
